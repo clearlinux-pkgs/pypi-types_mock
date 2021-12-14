@@ -4,7 +4,7 @@
 #
 Name     : pypi-types_mock
 Version  : 4.0.4
-Release  : 1
+Release  : 2
 URL      : https://files.pythonhosted.org/packages/d7/c7/7b7be44e473fb661dfe82fdd21ca1458842cb835fad52f4e2ce0af21f01a/types-mock-4.0.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/d7/c7/7b7be44e473fb661dfe82fdd21ca1458842cb835fad52f4e2ce0af21f01a/types-mock-4.0.4.tar.gz
 Summary  : Typing stubs for mock
