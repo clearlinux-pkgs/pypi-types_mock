@@ -4,7 +4,7 @@
 #
 Name     : pypi-types_mock
 Version  : 4.0.15
-Release  : 11
+Release  : 12
 URL      : https://files.pythonhosted.org/packages/90/a2/ccf1655630908ea7127d053cf031780ecf4663b58daefc350a88b270bbcf/types-mock-4.0.15.tar.gz
 Source0  : https://files.pythonhosted.org/packages/90/a2/ccf1655630908ea7127d053cf031780ecf4663b58daefc350a88b270bbcf/types-mock-4.0.15.tar.gz
 Summary  : Typing stubs for mock
@@ -48,7 +48,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1654528918
+export SOURCE_DATE_EPOCH=1656366029
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -84,7 +84,7 @@ export FCFLAGS="$FCFLAGS -m64 -march=x86-64-v3 "
 export LDFLAGS="$LDFLAGS -m64 -march=x86-64-v3 "
 python3 -tt setup.py build install --root=%{buildroot}-v3
 popd
-/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot}/usr/share/clear/optimized-elf/ %{buildroot}/usr/share/clear/filemap/filemap-%{name}
+/usr/bin/elf-move.py avx2 %{buildroot}-v3 %{buildroot} %{buildroot}/usr/share/clear/filemap/filemap-%{name}
 
 %files
 %defattr(-,root,root,-)
