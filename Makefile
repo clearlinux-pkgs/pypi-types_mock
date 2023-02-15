@@ -1,5 +1,5 @@
 PKG_NAME := pypi-types_mock
-URL = https://files.pythonhosted.org/packages/96/0b/98191da8bb9af6b62f90669d34f46f9a139614603234ad897e8a60c2346f/types-mock-5.0.0.2.tar.gz
+URL = https://files.pythonhosted.org/packages/91/54/980c5cc5807d67176c2fa4633721b259a45ae0951b27427ee792e9fd824c/types-mock-5.0.0.3.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
