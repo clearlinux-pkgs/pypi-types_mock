@@ -4,10 +4,10 @@
 # Using build pattern: distutils3
 #
 Name     : pypi-types_mock
-Version  : 5.1.0.0
-Release  : 29
-URL      : https://files.pythonhosted.org/packages/9d/bf/583db240974cc407b21036ef611248e685368a36802f58b77f84b6412177/types-mock-5.1.0.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/9d/bf/583db240974cc407b21036ef611248e685368a36802f58b77f84b6412177/types-mock-5.1.0.0.tar.gz
+Version  : 5.1.0.1
+Release  : 30
+URL      : https://files.pythonhosted.org/packages/75/5b/1a8cd2f11cfc05a3b6270b8d8a75a9d5fb8035c6f98e7bd39dda050368d9/types-mock-5.1.0.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/75/5b/1a8cd2f11cfc05a3b6270b8d8a75a9d5fb8035c6f98e7bd39dda050368d9/types-mock-5.1.0.1.tar.gz
 Summary  : Typing stubs for mock
 Group    : Development/Tools
 License  : Apache-2.0
@@ -41,10 +41,10 @@ python3 components for the pypi-types_mock package.
 
 
 %prep
-%setup -q -n types-mock-5.1.0.0
-cd %{_builddir}/types-mock-5.1.0.0
+%setup -q -n types-mock-5.1.0.1
+cd %{_builddir}/types-mock-5.1.0.1
 pushd ..
-cp -a types-mock-5.1.0.0 buildavx2
+cp -a types-mock-5.1.0.1 buildavx2
 popd
 
 %build
@@ -52,7 +52,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1689783222
+export SOURCE_DATE_EPOCH=1689879207
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
