@@ -7,7 +7,7 @@
 #
 Name     : pypi-types_mock
 Version  : 5.1.0.20240425
-Release  : 38
+Release  : 39
 URL      : https://files.pythonhosted.org/packages/36/40/1ed5b983c97161ad1605de42932143bcb24f5e435cc660de4487f78f6a4c/types-mock-5.1.0.20240425.tar.gz
 Source0  : https://files.pythonhosted.org/packages/36/40/1ed5b983c97161ad1605de42932143bcb24f5e435cc660de4487f78f6a4c/types-mock-5.1.0.20240425.tar.gz
 Summary  : Typing stubs for mock
